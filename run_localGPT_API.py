@@ -9,7 +9,7 @@ from flask import Flask, jsonify, request
 from langchain.chains import RetrievalQA
 from langchain.embeddings import HuggingFaceInstructEmbeddings
 
-# from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
 from run_localGPT import load_model
 from prompt_template_utils import get_prompt_template
 
